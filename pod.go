@@ -10,7 +10,7 @@ import (
 )
 
 const (
-	runCommandDockerImage   = "giantswarm/alpine:3.11.6"
+	runCommandDockerImage   = "alpine:latest"
 	runCommandNamespace     = metav1.NamespaceSystem
 	runCommandPriorityClass = "system-cluster-critical"
 )
